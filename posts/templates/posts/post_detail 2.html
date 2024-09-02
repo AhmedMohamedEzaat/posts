@@ -1,0 +1,13 @@
+<h2>post ditail</h2>
+
+<h3>{{Posts}}</h3>
+<p>{{post.content}} </p>
+
+<img src="{{posts.img.url}}" alt="">
+
+
+<hr>
+
+<a href="{% url 'posts:edit_post' posts.id %}" > edit_post  </a>
+<a href="{% url 'posts:delete_post' posts.id %}" > delete_post  </a>
+
