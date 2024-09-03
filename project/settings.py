@@ -118,7 +118,7 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
-STATCFIKES_DIRS =[
+STATCFILES_DIRS =[
     BASE_DIR / "static"
 ]
 
